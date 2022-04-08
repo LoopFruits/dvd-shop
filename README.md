@@ -33,3 +33,8 @@ Things you may want to cover:
     Movie model file
     MoviesController, controller file 
     resources :movies to the routes.rb file 
+
+
+## For future me
+
+* In order to get this local repo linked to github, I created the app in my terminal, then created a new repo on github with the same name, and copy and pasted the "new repo" step into the terminal thus giving me the ability to push to gitbub.  I had to have cd'd into the directory I wanted to send to github. 
