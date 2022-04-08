@@ -5,4 +5,8 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
+
+  # rails g resource Movie title year:integer length:integer director description poster_url category discount:boolean female_director:boolean --no-test-framework
+  # Generates a migration for creating a movies table with the specified attribes 
+
 end
