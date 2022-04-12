@@ -80,7 +80,21 @@ Model-View-Controller(MVC)
             allows you to create methods, data attributes, and everything else that you would want to do in a class file. Using the restaurant analogy its the chef. Performs a number of tasks to create each meal that is deliverd by the next layer (controller).
 
         b. Controller
-            
+            connects the models, views and routes. Each route defined in the routes file must have a corresponding method in a controller. When a request comes in Rails uses to routes to determine which controller method to run . The controller method then accesses data using the the model and uses that data to render the correct view. Once again using the restaurant anaology. The controller is the waiter. 
+
+        c. Views 
+            renders whatever is sent from the controller. The table in the restaurant analogy. 
+
+    2. In the architecture, which layer should contain the most logic? Which should contain the least. 
+        The controller contains the most logic and the view layer contains the least. 
+
+    3. What are some benefits of using Rails and the MVC architecture?
+
+            Having the ability to generate models and methods.
+            Readability
+            Data flow is more managable
+
+
 
 
 
