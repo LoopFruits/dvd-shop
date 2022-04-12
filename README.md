@@ -96,7 +96,38 @@ Model-View-Controller(MVC)
 
 
 
+Rails and Active Record 
 
+    1. What are some of the the ways that using Active Record in Rails makes it easier to interact with the model data stored in a database. 
+
+        One way would be using rails generators. Meaning by using active record in rails allows the developer to focus on the logic of their applications. Generators that allow us to create our models controllers and so on.
+
+    2. What are the advantages of using a Rails generator to create our models?
+        
+        Rails generator allows us to write out the code we need inside our models in our terminal. Therefore creating automation, saving key strokes. 
+    
+    3. Why is it important for migration file names to have a timestamp prepended?
+
+
+Rails Routing Basics 
+
+    1. When an HTTP request is made to a Rails app, what is the sequence of events that happens to return the response?
+
+        a. Client sends request to the server(entering a url in the browser(javascripts fetch))
+        b. request is sent to the server where the application's router interprets the request and sends a message to the controller mapped to that route.
+        c. the controller uses that model to access data from the database 
+        d. the controller then uses that data to render a view(HTML or JSON)
+        e. the server returns an HTTP response, which contains our rendered view (HTML OR JSON)
+    2. What three components make up a route in Rails 
+
+            a. our http verb (CRUD) GET, PATCH
+            b. our path : where our url bar is going 
+            c. Controller Action: 'cheeses#index', tells us we're routing through CheesesController to get our cheeses.
+
+
+Route Params 
+
+    1. What do we mean when we say taht a route is dynamic? 
 
 
 
