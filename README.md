@@ -127,7 +127,8 @@ Rails Routing Basics
 
 Route Params 
 
-    1. What do we mean when we say taht a route is dynamic? 
+    1. What do we mean when we say that a route is dynamic? 
+    2.
 
 
 
