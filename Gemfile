@@ -28,3 +28,7 @@ group :development do
   # gem "spring"
 end
 
+#Active Model Seralizer 
+
+gem 'active_model_serializers'
+
