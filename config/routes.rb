@@ -6,7 +6,8 @@ Rails.application.routes.draw do
   # root "articles#index"
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
-  get "/me", to: "users#show"
+  #returns a user when that user is logged in
+  get "/me", to: "viewers#show"
 
 
   # rails g resource Movie title year:integer length:integer director description poster_url category discount:boolean female_director:boolean --no-test-framework
