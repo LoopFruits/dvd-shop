@@ -11,10 +11,17 @@ const [count, setCount] = useState(0);
 // setCount: a setter function so we can update that state
 
 //Setting state 
-    function increment(){
-        setCount( count + 1 );
-    }
+    
+    
+    function increment() {
+    console.log(`before setState: ${count}`);
 
+    setCount((currentCount) => currentCount + 1);
+    setCount((currentCount) => currentCount + 1);
+
+    console.log(`after setState: ${count}`);
+    
+    }
     return (
         // we have to attatch the event listener (onClick) to the button 
         
